@@ -1,0 +1,67 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black ;
+text-align: center;
+    padding: 60px;
+    color: white;
+    
+}
+.brand{
+    font-weight: bolder;
+    width: 20;
+}
+.search-bar{
+    width: 70%;
+
+}
+.search-bar input{
+    width: 50%;
+    border-radius: 50px;
+    text-align: center;
+}
+input::placeholder{
+    padding: 10px;
+    font-weight: bold;
+}
+.cart{
+    width: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+ .nav-bar-wrapper{
+    display: flex;
+    justify-content: space-between;
+   padding: 50px;
+   background-color: black;
+   color: white;
+   font-weight: bold;
+} 
+ .sort{
+  height: 50px;
+  gap: 50px;
+  margin-right: 200px; 
+  align-items: center; 
+  
+ }
+
+.nav{
+  height: 25px;
+  width: 25px;
+
+}
+ /* .img-container{
+    display: flex;
+    justify-content: space-between;
+   padding: 10px;
+   height: 50px;
+   
+   margin-right: 200px;
+   background-color: black;
+   color: white;
+   font-weight: bold;
+ } */
+
+
+ /* Container Styling */

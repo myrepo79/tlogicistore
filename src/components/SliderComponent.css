@@ -1,0 +1,95 @@
+/* Container for the slider */
+.help-heading {
+  margin-left: 80px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sub-head-offer {
+  font-size: 21px;
+  margin-left: 80px;
+}
+.slider-container {
+  width: 100%;
+  max-width: 1200px; /* Limit the max width to match iStore layout */
+  margin: 0 auto;
+  padding: 40px 15px; /* Add padding on sides */
+}
+
+/* Centering and Styling the Slide */
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px; /* Prevents images from touching edges */
+}
+
+/* Card Style */
+.card {
+  position: relative;
+  width: 100%;
+  max-width: 330px; /* Ensures each card fits well in the container */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  margin: 0 auto; /* Center the card within the slide */
+}
+
+/* Hover effect for card */
+.card:hover {
+  transform: translateY(-12px);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Card Content Style */
+.card-content {
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.card-content h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 15px 0;
+  line-height: 1.4;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.card-content a {
+  font-size: 14px;
+  color: #0071e3;
+  text-decoration: none;
+}
+
+.card-content a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .card {
+    max-width: 270px;
+  }
+  .slider-container {
+    padding: 40px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    max-width: 100%;
+  }
+}

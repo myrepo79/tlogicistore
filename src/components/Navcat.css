@@ -1,0 +1,70 @@
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    padding: 20px 0;
+    background-color: firebrick; /* Light background to match India iStore's style */
+  }
+  
+  /* Image + Label Container */
+  .img-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px; /* Space between product items */
+    flex-wrap: wrap; /* For responsiveness */
+    width: 100%;
+    max-width: 1200px; /* Limit max width to align content */
+  }
+  
+  /* Individual Product Item */
+  .product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100px; /* Consistent size for product items */
+    transition: transform 0.3s ease;
+  }
+  
+  .product-item:hover {
+    transform: scale(1.1); 
+  }
+  
+  /* Product Image */
+  .product-image1 {
+    width: 40px; /* Set image size */
+    height: 40px;
+    /* border-radius: 20px; */
+    object-fit: contain; /* Preserve aspect ratio */
+    margin-bottom: 8px;
+  }
+  
+  /* Product Label */
+  .product-label {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    
+    margin-top: 5px;
+    transition: color 0.3s ease;
+  }
+  
+  .product-label:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

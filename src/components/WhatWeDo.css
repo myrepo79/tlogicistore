@@ -1,0 +1,42 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .content-box {
+    /* background-color: #fff; */
+    background-color: black;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .description {
+    font-size: 18px;
+    line-height: 1.3;
+    color: white;
+    
+    margin-bottom: 20px;
+    
+  }
+  
+  .read-more {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0071e3;
+    text-decoration: none;
+  }
+  
+  .read-more:hover {
+    text-decoration: underline;
+  }
+  

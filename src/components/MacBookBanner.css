@@ -1,0 +1,40 @@
+.banner-content {
+  width: 100%; /* Full width of the container */
+  position: relative;
+  overflow: hidden; /* Ensures no content overflows the container */
+}
+
+.banner-image {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  width: 100%;
+  height: 100%; /* Ensures the container covers its parent's height */
+}
+
+.image-container img {
+  width: 100%; /* Makes the image responsive */
+  height: auto; /* Maintains the image's aspect ratio */
+  display: block; /* Removes extra space below the image */
+  object-fit: cover; /* Ensures the image fills the container without distortion */
+}
+
+.help-heading {
+margin-left: 80px;
+font-size: 24px;
+  font-weight: bold;
+}
+
+
+
+.sub-head-offer{
+  padding: 10px,0px,10px,0px;
+  font-size: 21px;
+  line-height: 1.4;
+  margin-left: 80px;
+}
