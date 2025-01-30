@@ -6,6 +6,8 @@ import SliderComponent from "./components/SliderComponent";
 import ProductCategories from "./components/ProductCategories ";
 import Navcat from "./components/Navcat";
 import WhatWeDo from "./components/WhatWeDo";
+import AppleResellers from "./components/AppleResellers";
+import StoreLocator from "./components/StoreLocator";
 
 
 //import MacBookBanner from "./components/MacBookBanner";
@@ -22,6 +24,8 @@ const App=() =>{
     <SliderComponent></SliderComponent>
     <ProductCategories></ProductCategories>
     <WhatWeDo></WhatWeDo>
+    <AppleResellers></AppleResellers>
+    <StoreLocator></StoreLocator>
    
   </div>
   )
