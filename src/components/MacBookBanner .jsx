@@ -4,7 +4,7 @@ import Iphone1 from "../assets/Iphone1.jpg";
 import Iphone2 from "../assets/Iphone2.jpg";
 import Mac1 from "../assets/Mac1.jpg";
 import "bootstrap/dist/css/bootstrap.css";
- import Container from "react-bootstrap/Container";
+//  import Container from "react-bootstrap/Container";
 
 import "./MacBookBanner.css";
 

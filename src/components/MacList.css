@@ -1,0 +1,42 @@
+.mac-list-container {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .mac-items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .mac-card {
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .mac-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+  }
+  
+  .mac-card p {
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .mac-card:hover {
+    transform: scale(1.1);
+  }
+  .view-all {
+    text-align: right;
+    margin-top: 130px;
+    color: #3498db;
+    cursor: pointer;
+  }
+  

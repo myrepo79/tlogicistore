@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./AppleResellers.css";
 import aptronix from "../assets/aptronix.png";
 import futureworld from "../assets/futureworld.png";
