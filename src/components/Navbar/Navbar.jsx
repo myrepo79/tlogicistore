@@ -1,4 +1,4 @@
-import React from 'react'
+//import React from 'react'
 
  import istore from '../../assets/istore.png';
  //import storelocator from '../../assets/store-locator.jpeg';
