@@ -16,7 +16,7 @@ const IpadList = () => {
       <div className="ipad-items">
         <div className="ipad-card">
           <img src={IpadMini} alt="MacBook Pro" />
-          <p>MacBook Pro</p>
+          <p>IpadMini</p>
         </div>
         <div className="ipad-card">
           <img src={Ipadpro} alt="iMac" />
@@ -24,19 +24,19 @@ const IpadList = () => {
         </div>
         <div className="ipad-card">
           <img src={Ipadpro1} alt="Mac Mini" />
-          <p>Mac Mini</p>
+          <p>Ipadpro</p>
         </div>
         <div className="ipad-card">
           <img src={IpadAir} alt="MacBook Air" />
-          <p>MacBook Air</p>
+          <p>IpadAir</p>
         </div>
         <div className="ipad-card">
           <img src={IpadAir1} alt="MacBook Air1" />
-          <p>MacBook Air</p>
+          <p>IpadAir</p>
         </div>
         <div className="ipad-card">
           <img src={Ipad1} alt="MacBook Pro" />
-          <p>MacBook Pro</p>
+          <p>Ipad</p>
         </div>
         <div className="view-all">
         VIEW ALL →

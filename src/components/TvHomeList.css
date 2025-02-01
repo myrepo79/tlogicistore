@@ -1,0 +1,42 @@
+.tvhome-list-container {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .tvhome-items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .tvhome-card {
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .tvhome-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+  }
+  
+  .tvhome-card p {
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .airpode-card:hover {
+    transform: scale(1.1);
+  }
+  .view-all {
+    text-align: right;
+    margin-top: 130px;
+    color: #3498db;
+    cursor: pointer;
+  }
+  

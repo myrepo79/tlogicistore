@@ -1,7 +1,7 @@
 // import React from 'react'
 //import React from 'react'
 
- import istore from '../../assets/istore.png';
+  import istore from '../../assets/Istore.png';
  //import storelocator from '../../assets/store-locator.jpeg';
 
 
@@ -13,7 +13,7 @@ const Navbar = () => {
     <header>
         <div className='nav-bar'>
           <div >
-            <img src={istore} alt="istore" />
+            <img src={istore} alt="Istore" />
           </div>
             {/* <div className='brand'>India- Store</div> */}
             <div className='search-bar'>

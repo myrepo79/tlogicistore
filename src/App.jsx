@@ -63,6 +63,10 @@ import IphoneList from "./components/IphoneList"; // ✅ FIXED - Added import
 import MacList from "./components/MacList";
 import IpadList from "./components/IpadList";
 import WatchList from "./components/WatchList";
+import AirpodesList from "./components/AirpodesList";
+import TvHomeList from "./components/TvHomeList";
+
+
 
 
 
@@ -77,6 +81,11 @@ const App = () => {
         onMacClick={() => setSelectedCategory("mac")}
         onIpadClick={() => setSelectedCategory("ipad")}
         onWatchClick={() => setSelectedCategory("watch")}
+        onAirpodsClick={() => setSelectedCategory("airpods")} // ✅ Fixed naming
+        onTvHomeClick={() => setSelectedCategory("tvhome")}
+
+
+
 
 
       />
@@ -85,6 +94,10 @@ const App = () => {
       {selectedCategory === "mac" && <MacList />}
       {selectedCategory === "ipad" && <IpadList />}
       {selectedCategory === "watch" && <WatchList />}
+      {selectedCategory === "airpods" && <AirpodesList />}
+      {selectedCategory === "tvhome" && <TvHomeList />}
+
+
 
 
 

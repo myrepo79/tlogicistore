@@ -14,19 +14,19 @@ const MacList = () => {
       <div className="watch-items">
         <div className="watch-card">
           <img src={Watch1} alt="MacBook Pro" />
-          <p>MacBook Pro</p>
+          <p>Watch</p>
         </div>
         <div className="watch-card">
           <img src={Watch2} alt="iMac" />
-          <p>iMac</p>
+          <p>Watch</p>
         </div>
         <div className="watch-card">
           <img src={Watch3} alt="Mac Mini" />
-          <p>Mac Mini</p>
+          <p>Watch</p>
         </div>
         <div className="watch-card">
           <img src={Watch4} alt="MacBook Air" />
-          <p>MacBook Air</p>
+          <p>Watch</p>
         </div>
         
         
