@@ -1,7 +1,7 @@
 // import React from 'react'
 //import React from 'react'
 
- import istore from '../../assets/istore.png';
+ import istore from '../../assets/Istore.png';
  //import storelocator from '../../assets/store-locator.jpeg';
 
 
