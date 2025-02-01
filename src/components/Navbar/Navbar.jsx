@@ -1,12 +1,8 @@
-<<<<<<< HEAD
 // import React from 'react'
-=======
 //import React from 'react'
->>>>>>> 03a1641daa85edb7d474b2493df179606c8e25aa
 
  import istore from '../../assets/istore.png';
  //import storelocator from '../../assets/store-locator.jpeg';
-
 
 
 

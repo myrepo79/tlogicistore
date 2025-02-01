@@ -8,7 +8,7 @@ import Watch from "../assets/Watch.png";
 import Airpods from "../assets/Airpods.png";
 import Tvhome from "../assets/Tv&home.png";
 
-const Navcat = ({ onIphoneClick, onMacClick }) => {
+const Navcat = ({ onIphoneClick, onMacClick,onIpadClick,onWatchClick }) => {
   return (
     <div className="navbar-container">
       <div className="img-container">
@@ -28,15 +28,23 @@ const Navcat = ({ onIphoneClick, onMacClick }) => {
           <img className="product-image1" src={Mac} alt="Mac" />
           <p className="product-label">Mac</p>
         </div>
-        <div className="product-item">
+        <div className="product-item"
+         onClick={onIpadClick}
+         style={{ cursor: "pointer" }}
+         >
           <img className="product-image1" src={Ipad} alt="iPad" />
           <p className="product-label">iPad</p>
         </div>
-        <div className="product-item">
+        <div className="product-item"
+                 onClick={onWatchClick}
+                 style={{ cursor: "pointer" }}
+                 >
           <img className="product-image1" src={Watch} alt="Watch" />
           <p className="product-label">Watch</p>
         </div>
-        <div className="product-item">
+        <div className="product-item"
+         onClick={onAirpodsClick}
+         style={{ cursor: "pointer" }}>
           <img className="product-image1" src={Airpods} alt="AirPods" />
           <p className="product-label">AirPods</p>
         </div>

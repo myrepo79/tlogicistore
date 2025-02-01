@@ -61,6 +61,10 @@ import StoreLocator from "./components/StoreLocator";
 
 import IphoneList from "./components/IphoneList"; // ✅ FIXED - Added import
 import MacList from "./components/MacList";
+import IpadList from "./components/IpadList";
+import WatchList from "./components/WatchList";
+
+
 
 const App = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -71,10 +75,18 @@ const App = () => {
       <Navcat 
         onIphoneClick={() => setSelectedCategory("iphone")}
         onMacClick={() => setSelectedCategory("mac")}
+        onIpadClick={() => setSelectedCategory("ipad")}
+        onWatchClick={() => setSelectedCategory("watch")}
+
+
       />
 
       {selectedCategory === "iphone" && <IphoneList />}
       {selectedCategory === "mac" && <MacList />}
+      {selectedCategory === "ipad" && <IpadList />}
+      {selectedCategory === "watch" && <WatchList />}
+
+
 
       {!selectedCategory && (
         <>

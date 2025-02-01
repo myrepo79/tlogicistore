@@ -20,9 +20,9 @@ const MacBookBanner = () => {
     return () => clearInterval(interval); // Clear interval on component unmount
   }, [images.length]);
 
-  const handleKnowMore = () => {
-    alert("Redirecting to more details about the MacBook Pro...");
-  };
+  // const handleKnowMore = () => {
+  //   alert("Redirecting to more details about the MacBook Pro...");
+  // };
 
   return (
     <>
